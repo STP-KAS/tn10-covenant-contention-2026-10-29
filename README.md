@@ -4,7 +4,7 @@ Private plan for one Testnet-10 phase with Kaspa Pulse. Thursday 29 Oct 2026, 18
 
 Testnet-10 only. KCC-20 is Last Call, not Final. This is a measurement of one covenant state output, not a token launch.
 
-The procedure is `PLAN.md`.
+The procedure is `PLAN.md`. The 20 Oct desk rehearsal is `REPORT-2026-10-20.md`.
 
 ## Clock
 

@@ -46,7 +46,7 @@ A hop is this shape, and every sender uses it:
 - input 0 spends the current minter outpoint
 - input 1 spends that sender's own funding coin
 - output 0 is the next minter, same value, remaining reduced by 1
-- output 1 is the token output, at the smallest value the node will relay
+- output 1 is the token output. On this script a 0.05 KAS output measured storage mass 803963, above the 500000 block storage limit, because the output's plurality is 2. The 20 Oct rehearsal used 0.2 KAS and that mass fit. Use a value whose committed storage mass is under the block storage limit.
 - output 2 is change back to that sender
 
 The reference sets the compute budgets. The 7 Oct node accepted a covenant-input budget of 5 and a funding-input budget of 10. Keep whatever the reference emits. Sign and hash after mass and budgets are set.
