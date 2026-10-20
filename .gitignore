@@ -1,0 +1,8 @@
+# Run files stay on disk. A later commit may add count-only sheets after a secret scan.
+/logs/
+/control/
+/secrets/
+/keys/
+*.jsonl
+*.key
+*.seed
